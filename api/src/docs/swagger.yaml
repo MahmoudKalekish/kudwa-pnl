@@ -1,0 +1,40 @@
+openapi: 3.0.0
+info:
+  title: Kudwa P&L API
+  version: 1.0.0
+paths:
+  /api/v1/integrations/json1:
+    post:
+      summary: Ingest JSON1 dataset
+      tags: [Integrations]
+      responses:
+        '200':
+          description: Success
+  /api/v1/integrations/json2:
+    post:
+      summary: Ingest JSON2 dataset
+      tags: [Integrations]
+      responses:
+        '200':
+          description: Success
+  /api/v1/pnl/periods:
+    get:
+      summary: List available PnL periods
+      tags: [PnL]
+      responses:
+        '200':
+          description: Success
+  /api/v1/pnl/tree:
+    get:
+      summary: Get PnL tree for a period
+      tags: [PnL]
+      responses:
+        '200':
+          description: Success
+  /api/v1/pnl/summary:
+    get:
+      summary: Get summary time series
+      tags: [PnL]
+      responses:
+        '200':
+          description: Success

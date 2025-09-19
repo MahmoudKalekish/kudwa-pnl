@@ -1,0 +1,16 @@
+{
+    "data": [
+      {
+        "rootfi_company_id": 123,
+        "period_start": "2022-08-01",
+        "period_end": "2022-08-31",
+        "currency_id": "USD",
+        "revenue": [
+          { "name": "Business Revenue", "value": 2000 }
+        ],
+        "cost_of_goods_sold": [],
+        "operating_expenses": []
+      }
+    ]
+  }
+  

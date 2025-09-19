@@ -1,0 +1,30 @@
+{
+    "data": {
+      "Header": { "Currency": "USD" },
+      "Columns": {
+        "Column": [
+          { "ColType": "Account" },
+          {
+            "ColTitle": "Jan 2020",
+            "ColType": "Money",
+            "MetaData": [
+              { "Name": "StartDate", "Value": "2020-01-01" },
+              { "Name": "EndDate", "Value": "2020-01-31" },
+              { "Name": "ColKey", "Value": "Jan 2020" }
+            ]
+          }
+        ]
+      },
+      "Rows": {
+        "Row": [
+          {
+            "ColData": [
+              { "value": "Business Revenue" },
+              { "value": "1000" }
+            ]
+          }
+        ]
+      }
+    }
+  }
+  
